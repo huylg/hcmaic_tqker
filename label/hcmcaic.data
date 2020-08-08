@@ -1,4 +1,4 @@
 classes=3
-train=train.txt
-valid=train.txt
-names=hcmcaic.names
+train=/content/hcmaic_tqker/label/train.txt
+valid=/content/hcmaic_tqker/label/train.txt
+names=/content/hcmaic_tqker/label/hcmcaic.names
