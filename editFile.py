@@ -11,7 +11,7 @@ def trainTxt(path):
     u=1
     for image in os.listdir(path):
         if 'jpeg' in image:
-            trainFile.write("/content/hcmaic_tqker/frames/image_{}.jpeg\n".format(u))
+            trainFile.write("/content/hcmaic_tqker/frames/{image}\n".format(image=image))
             u+=1
 
 if __name__ == "__main__":
