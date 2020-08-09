@@ -1,7 +1,7 @@
 import os
 from opts import *
 def rename(path):
-    i=1
+    i=101
     for image in os.listdir(path):
         os.system("mv {} {}".format(os.path.join(path,image),os.path.join(path,"image_{}.jpeg".format(i))))
         i+=1
@@ -17,4 +17,4 @@ def trainTxt(path):
 if __name__ == "__main__":
     opt = parse_opts()
     path = opt.videos
-    trainTxt(path)
+    rename(path)
