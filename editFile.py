@@ -1,7 +1,6 @@
 import os
 from opts import *
 def rename(path):
-    i=301
     for image in os.listdir(path):
         if 'jpeg' in image:
             os.system("mv {} {}".format(os.path.join(path,image),os.path.join(path,"image_{}.jpeg".format(i))))
