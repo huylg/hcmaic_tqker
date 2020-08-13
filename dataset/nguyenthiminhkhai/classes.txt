@@ -1,4 +1,0 @@
-Loai 1
-Loai 2
-Loai 3
-Loai 4
