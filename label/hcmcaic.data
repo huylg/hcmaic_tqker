@@ -1,4 +1,4 @@
-classes=3
+classes=4
 train=/content/hcmaic_tqker/label/train.txt
-valid=/content/hcmaic_tqker/label/train.txt
+valid=/content/hcmaic_tqker/label/valid.txt
 names=/content/hcmaic_tqker/label/hcmcaic.names
