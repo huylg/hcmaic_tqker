@@ -4,6 +4,6 @@
 [submodule "labelImg"]
 	path = labelImg
 	url = https://github.com/tzutalin/labelImg.git
-[submodule "yolov3"]
-	path = yolov3
-	url = https://github.com/ultralytics/yolov3.git
+[submodule "yolov5"]
+	path = yolov5
+	url = https://github.com/huylg/yolo5_modify.git
