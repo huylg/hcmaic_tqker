@@ -23,7 +23,7 @@ def xml_to_csv(path):
     xml_df = pd.DataFrame(xml_list, columns=column_name)
     return xml_df
 
-XML_PATH =  '/home/vinh/Python/hcmaic_tqker/dataset/xml' 
+XML_PATH =  '/home/vinh/Python/hcmaic_tqker/yolov5_label/dataset/xml' 
 
 def xml_to_csv_from_list(images_list_file_name):
     xml_list = []

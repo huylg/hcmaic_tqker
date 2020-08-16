@@ -1,7 +1,7 @@
 import os
 from opts import *
 def rename(path):
-    i=400
+    i=801
     for image in os.listdir(path):
         if 'jpeg' in image:
             os.system("mv {} {}".format(os.path.join(path,image),os.path.join(path,"image_{}.jpeg".format(i))))
@@ -9,7 +9,7 @@ def rename(path):
             i+=1
 
 def trainTxt(path):
-    trainFile = open('/home/vinh/Python/hcmaic_tqker/label/valid.txt','w+')
+    trainFile = open('/home/vinh/Python/hcmaic_tqker/label/train.txt','w+')
     u=1
     for streets in os.listdir(path):
         if 'jpeg' in streets:
